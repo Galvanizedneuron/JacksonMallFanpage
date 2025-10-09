@@ -10,6 +10,7 @@
     background-color: blueviolet;
 }
 
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(192, 4, 192);
@@ -44,4 +45,27 @@ p {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+/* Splash text styling */
+#splash {
+    color: #ffec1a; /* bright yellow, Minecraft-style */
+    font-weight: bold;
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-shadow: 2px 2px 0 #000, 4px 4px 6px rgba(0,0,0,0.5);
+    transform: rotate(-5deg);
+    animation: bob 3s ease-in-out infinite;
+    user-select: none;
+}
+
+/* Floating motion */
+@keyframes bob {
+    0%, 100% {
+        transform: rotate(-5deg) translateY(0);
+    }
+    50% {
+        transform: rotate(-5deg) translateY(-6px);
+    }
 }
