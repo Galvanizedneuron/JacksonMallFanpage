@@ -28,7 +28,13 @@ const splashes = [
   "Go volunteer somewhere, you bum!",
   "Dogs are better than cats.",
   "Corparatism is boring...Choose FOSS",
-  "It is a strange world where Hypr-chan exists."
+  "It is a strange world where Hypr-chan exists.",
+  "Living in the limelight, the universal dream",
+  "I sure hope this gives me CAS hours.",
+  "Please don't inspect the HTML.",
+  "Kanehito Yamada and Tsukasa Abe get better soon!",
+  "Gurt: Yo",
+  "67"
 ];
 
 // Get day of year (0–365)
